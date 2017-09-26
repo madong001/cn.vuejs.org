@@ -138,5 +138,5 @@ Vue.config.optionMergeStrategies.vuex = function (toVal, fromVal) {
     state: merge(toVal.state, fromVal.state),
     actions: merge(toVal.actions, fromVal.actions)
   }
-}
+}s
 ```
